@@ -1,7 +1,7 @@
 package com.capgemini.javademo;
 
 
-class Eclipse implements Runnable{
+class Eclipseone implements Runnable{
 	
 	public void run()
 	{
@@ -14,7 +14,7 @@ class Eclipse implements Runnable{
 public class MultiThread3 {
 	
 	public static void main(String[] args) {
-		Eclipse e=new Eclipse();
+		Eclipseone e=new Eclipseone();
 		Thread t=new Thread(e);
 		t.start();
 	        
